@@ -19,3 +19,4 @@ Simple front-end boilerplate
 - `gulp scripts` to run the script tasks
 - `gulp images` to run the image tasks
 - `gulp favicon` to run the favicon tasks
+- `gulp fonts` to run the fonts tasks
