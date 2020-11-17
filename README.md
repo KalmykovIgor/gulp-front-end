@@ -1,29 +1,21 @@
 # gulp-front-end
 Simple front-end boilerplate
 
-## Install
+### Installation
 
-### 1. Cloning
-Download the files from github or clone it using the command:
+- `npm install` to install any dependencies
+- `npm start` or `gulp watch` to start a live reload session
 
-```bash
-git clone https://github.com/KalmykovIgor/gulp-front-end.git
-```
+### Building
 
-### 2. Installing project dependencies
-To install project dependencies, enter the commands at the command line:
-```bash
-npm install
-```
+- `npm run build` or `gulp` to build the application
 
-## How to use the environment
-**Default**: 
-- `gulp`                - build and run live-server         
+### Extras
 
-**Custom build**: 
-- `gulp css:build`      - for CSS files
-- `gulp clean:build`    - clear `build` folder
-- `gulp html:build`     - for HTML files
-- `gulp js:build`       - for JS files
-- `gulp fonts:build`    - for fonts
-- `gulp image:build`    - for images
+- `gulp` or `gulp build` to build the application
+- `gulp watch` to enable live reload
+- `gulp clean` to delete the build folder
+- `gulp styles` to run the style tasks
+- `gulp scripts` to run the script tasks
+- `gulp images` to run the image tasks
+- `gulp favicon` to run the favicon tasks
